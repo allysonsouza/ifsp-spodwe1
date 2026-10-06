@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DOM API - Criador de Personagem</title>
+</head>
+
+<body>
+
+	<header>
+		<h1>DOM API - Criador de Personagens</h1>
+		<p>Construa um criador de personagens a partir de um formulário HTML fornecido abaixo.</p>
+		<p>Os cartões de personagem devem ser criados a partir dos dados inseridos no formulário. Ele devem ser exibidos
+			enquanto o usuário insere os dados, na área de visualização do personagem. Após o usuário clicar em criar, a
+			visualização deve ficar em branco e o cartão de personagem deve ser adicionado à área de listagem de
+			personagens.</p>
+
+		<h2>Dicas</h2>
+		<ol>
+			<li>Crie uma folha de estilos para a página, pode ajudar na visualização dos elementos</li>
+			<li>Utilize o evento <code>onchange</code> para escutar por mudanças no campo nome, do formulário. Trate no
+				<i>callback</i> a inserção do nome na área de visualização do personagem.
+			</li>
+			<li>
+				Utilize o evento <code>onchange</code> para fazer o mesmo procedimento anterior com os demais campos.
+			</li>
+			<li>Quando o usuário submeter o formulário, utilize <code>preventDefault()</code> para evitar o disparo do
+				comportamento padrão do evento de submissão.</li>
+			<li>Limpe a <code>div.visualizacao-de-personagem</code> e crie um novo elemento e insira-o na
+				<code>div.lista-de-personagens</code>
+			</li>
+		</ol>
+	</header>
+
+	<hr>
+
+	<main>
+		<div class="visualizacao-do-personagem">
+			<!-- O personagem que está sendo criado deve ser exibido aqui -->
+		</div>
+
+		<div class="lista-de-personagens">
+			<!-- Após adicionado, o card do personagem deve ser exibido aqui -->
+		</div>
+	</main>
+
+	<aside>
+		<h2>Insira os dados do seu personagem</h2>
+		<form action="/" method="post">
+			<input type="text" name="nome" value="" />
+			<select name="classe">
+				<option value="guerreiro">Guerreiro</option>
+				<option value="Mago">Mago</option>
+				<option value="bardo">Bardo</option>
+			</select>
+			<input type="number" name="ataque" min="1" max="5" />
+			<input type="number" name="defesa" min="1" max="5" />
+			<radio name="elemento">
+				<option value="agua">Água</option>
+				<option value="fogo">Fogo</option>
+				<option value="terra">Terra</option>
+				<option value="ar">Ar</option>
+			</radio>
+			<input type="url" name="ilustracao" />
+			<input type="reset" value="Desfazer" />
+			<input type="button" value="Criar" />
+		</form>
+	</aside>
+
+	<footer>
+		Este trabalho está licenciado sob a <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a><img
+			src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""
+			style="max-width: 1em;max-height:1em;margin-left: .2em;"><img
+			src="https://mirrors.creativecommons.org/presskit/icons/zero.svg" alt=""
+			style="max-width: 1em;max-height:1em;margin-left: .2em;">
+	</footer>
+
+</body>
+
+</html>

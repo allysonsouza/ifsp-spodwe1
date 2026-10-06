@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Baralho</title>
+	<style>
+		/* 1. Define a animação "girar" */
+		/* cada bloco com uma porcentagem na frente representa os valores da propriedade */
+		/* em cada percentual de conclusão da animação */
+		@keyframes girar {
+			0% {
+				transform: rotateY(0deg);
+			}
+			0%, 25% {
+				background-image: url('https://deckofcardsapi.com/static/img/back.png');
+			}
+			50%,100% {
+				background-image: url('https://deckofcardsapi.com/static/img/KH.png');
+			}
+			100% {
+				transform: rotateY(360deg);
+			}
+		}
+
+		/* 2. Seleciona o elemento a girar e aplica a animação criada com a propriedade animation */
+		#deck {
+			animation: girar 2s linear infinite;
+		}
+
+		.card {
+			width: 250px;
+			height: 400px;
+			background-image: url('https://www.deckofcardsapi.com/static/img/back.png');
+			background-repeat: no-repeat;
+			background-size: fit;
+
+			animation: girar 2s linear infinite;
+		}
+	</style>
+</head>
+<body>
+	<div class="card"></div>
+	<img id="deck" src="https://www.deckofcardsapi.com/static/img/back.png" />
+
+
+	<script>
+		console.dir(deck.style)
+	</script>
+</body>
+</html>
