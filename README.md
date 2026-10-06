@@ -1,4 +1,4 @@
-# [NOME DA DISCIPLINA]
+# Desenvolvimento Web 1
 
 <table style="width: 100%;">
     <tbody>
@@ -11,8 +11,8 @@
             <th scope="col">Professores</th>
         </tr>
         <tr>
-            <td>[NOME DO CURSO]</td>
-            <td>[SIGLA]</td>
+            <td>Bacharelado em Sistemas de Informação</td>
+            <td>SPODWE1</td>
             <td><a href="https://allysonsouza.com.br/" target="_blank" rel="noopener noreferrer">Allyson Souza</a></td>
         </tr>
     </tbody>
