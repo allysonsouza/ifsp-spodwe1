@@ -1,3 +1,1 @@
-Me ajude criando uma série de exercícios para a construção de layouts e componentes clássicos com CSS, utilizando flexbox, para alunos que estão tendo um primeiro contato com a construção de layouts web com CSS.
 
-Os exercícios devem ser organizados cada um em uma subpasta deste diretório, com um arquivo HTML base, e opcionalmente uma folha de estilos externa vinculada, e um README.md com um guia, um passo a passo, com snippets de código, de como o layout pode ser alcançado. O layout pode ser exemplificado em uma imagem ou estruturado com ASCII no README.md, o que for mais didático.
