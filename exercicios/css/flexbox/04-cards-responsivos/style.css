@@ -1,0 +1,45 @@
+/* ===== Reset ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: #1f2937;
+  background: #f3f4f6;
+}
+
+/* ===== Estilos visuais (prontos) ===== */
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: 1.5rem;
+}
+
+.card {
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.card__title {
+  margin-bottom: 8px;
+  font-size: 1.125rem;
+}
+
+.card__text {
+  color: #4b5563;
+}
+
+/* ==========================================================
+   LAYOUT — escreva suas regras abaixo, seguindo o README.md
+   ========================================================== */

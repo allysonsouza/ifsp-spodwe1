@@ -1,0 +1,42 @@
+/* ===== Reset ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+/* ===== Estilos visuais (prontos) ===== */
+.hero {
+  padding: 32px 16px;
+  background: linear-gradient(135deg, #1e3a8a, #6d28d9);
+  color: #fff;
+}
+
+.hero__title {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  line-height: 1.1;
+}
+
+.hero__text {
+  max-width: 480px;
+  font-size: 1.125rem;
+  color: #e0e7ff;
+}
+
+.hero__button {
+  padding: 12px 24px;
+  background: #fff;
+  color: #1e3a8a;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 999px;
+}
+
+/* ==========================================================
+   LAYOUT — escreva suas regras abaixo, seguindo o README.md
+   ========================================================== */

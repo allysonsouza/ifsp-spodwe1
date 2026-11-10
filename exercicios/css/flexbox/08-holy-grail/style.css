@@ -1,0 +1,67 @@
+/* ===== Reset ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: #1f2937;
+}
+
+/* ===== Estilos visuais (prontos) ===== */
+.header,
+.footer {
+  padding: 16px 24px;
+  background: #1f2937;
+  color: #fff;
+}
+
+.nav {
+  padding: 16px;
+  background: #e0e7ff;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav li {
+  margin-bottom: 8px;
+}
+
+.nav a {
+  color: #3730a3;
+  text-decoration: none;
+}
+
+.main {
+  padding: 24px;
+  background: #fff;
+}
+
+.main h1 {
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+}
+
+.main p {
+  margin-bottom: 12px;
+}
+
+.aside {
+  padding: 16px;
+  background: #fef3c7;
+}
+
+.nav h2,
+.aside h2 {
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+/* ==========================================================
+   LAYOUT — escreva suas regras abaixo, seguindo o README.md
+   ========================================================== */

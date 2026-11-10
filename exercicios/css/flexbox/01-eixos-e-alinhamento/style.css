@@ -1,0 +1,69 @@
+/* ===== Reset ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: #1f2937;
+  background: #f3f4f6;
+}
+
+/* ===== Estilos visuais (prontos) ===== */
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: 1.5rem;
+}
+
+h2 {
+  margin: 24px 0 8px;
+  font-size: 1rem;
+  color: #4b5563;
+}
+
+.container {
+  padding: 12px;
+  background: #fff;
+  border: 2px dashed #9ca3af;
+  border-radius: 8px;
+}
+
+/* D e E precisam de altura para o eixo vertical ter espaço livre */
+.container-d,
+.container-e {
+  height: 160px;
+}
+
+.item {
+  width: 64px;
+  height: 64px;
+  background: #3b82f6;
+  color: #fff;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+/* ==========================================================
+   LAYOUT — escreva suas regras abaixo, seguindo o README.md
+   ========================================================== */
+
+/* A. */
+
+/* B. */
+
+/* C. */
+
+/* D. */
+
+/* E. */

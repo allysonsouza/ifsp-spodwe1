@@ -1,0 +1,68 @@
+/* ===== Reset ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: #1f2937;
+  background: #f3f4f6;
+}
+
+/* ===== Estilos visuais (prontos) ===== */
+.page {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: 1.5rem;
+}
+
+.comment {
+  margin-bottom: 16px;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  background: #6366f1;
+  color: #fff;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.comment__author {
+  font-size: 0.95rem;
+}
+
+.comment__time {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.comment__text {
+  margin: 4px 0 8px;
+  font-size: 0.95rem;
+}
+
+.comment__actions a {
+  font-size: 0.85rem;
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+/* ==========================================================
+   LAYOUT — escreva suas regras abaixo, seguindo o README.md
+   ========================================================== */

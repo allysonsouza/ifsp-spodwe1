@@ -1,0 +1,76 @@
+/* ===== Reset ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: #1f2937;
+  background: #f3f4f6;
+}
+
+/* ===== Estilos visuais (prontos) ===== */
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.plan {
+  padding: 24px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.plan--featured {
+  border: 2px solid #6366f1;
+}
+
+.plan__name {
+  font-size: 1.125rem;
+}
+
+.plan__price {
+  margin: 8px 0 16px;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.plan__price span {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.plan__features {
+  margin-bottom: 24px;
+  padding-left: 20px;
+}
+
+.plan__features li {
+  margin-bottom: 8px;
+}
+
+.plan__button {
+  padding: 10px 16px;
+  background: #4f46e5;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+/* ==========================================================
+   LAYOUT — escreva suas regras abaixo, seguindo o README.md
+   ========================================================== */
